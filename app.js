@@ -12,7 +12,7 @@ const option = {
       type: "object",
       required: [PASSWORD, USERNAME],
       properties: {
-        [PASSWORD]: { type: "string", minLength: 8 },
+        [PASSWORD]: { type: "string", minLength: 3 },
         [USERNAME]: { type: "string", minLength: 3, maxLength: 30 }
       }
     },
